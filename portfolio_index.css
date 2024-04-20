@@ -1,0 +1,253 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#main
+{
+    background-color: #20242d;
+    height:100vh;
+}
+
+.lower
+{
+    background-color: #2c5572;
+    height:100vh;
+}
+
+.lower img 
+{
+    width:200px;
+    height:500px;
+}
+
+#nav
+{
+    position:sticky;
+    display:inline-flex;
+    justify-content: center;
+    align-items: middle;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+
+p
+{
+    color: white;
+    padding-left: 10px;
+    font-size: large;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;   
+}
+
+ul
+{
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+    padding-left: 850px; 
+    margin-top:10px;
+    margin-bottom: 10px;
+    
+}
+
+li
+{
+    margin-left:40px;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+li a
+{
+    text-decoration:none;
+    color:wheat;
+}
+
+li a:hover
+{
+    color:aqua;
+    font-size: 22px;
+}
+
+.disbox
+{
+    position:relative;
+    margin:20px 10px 10px 10px;
+    
+}
+
+.typebox
+{
+    align-items:center;   
+    display:inline-block;
+    width:50%;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    align-content: center;
+    position:relative;
+    top:0%;
+    transform: translate(0, -90%);
+}
+
+.imagebox
+{
+    display:inline-block;
+    color:white;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    padding-left: 320px;
+}
+
+.imagebox img
+{
+    border: 3px solid white;
+    border-radius: 10%;
+    width:300px;
+    box-shadow: 15px 15px;
+
+}
+
+.typebox h1
+{
+    color:white;
+    font-size: 40px;
+    font-weight:600;
+    padding-left:50px;
+    padding-top:25px;
+    vertical-align: center;
+}
+
+.auto_type
+{
+    color:aquamarine;
+}
+
+
+.head
+{
+    padding-top:10px;
+    position:relative;
+    text-align:center;
+    color:white;    
+}
+
+.head:before
+{
+    content:" ";
+    height: 3px;
+    width: 400px;
+    background:  #20242d;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-left: 250px;
+}
+  
+.head:after
+{
+    content:" ";
+    height: 3px;
+    width: 400px;
+    background:  #20242d;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-right: 250px;
+}
+  
+#leftbox
+{
+    width:65%;
+    height:80%;
+    margin-top: 20px;
+    float:left;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+#rightbox
+{
+    width:30%;
+    float:right;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    font-weight: 300;
+    padding-top: 25px;
+    margin-right:25px;
+    font-size: 25px;
+    font-weight:700;
+    height:80vh;
+    color:rgb(255, 248, 243);
+}
+  
+.gallery
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-box
+{
+    width:150px;
+    height:600px;
+    margin:10px;
+    border: 1.5 px whitesmoke;
+    border-radius: 50px;
+    background: url(frontenda.jpg);
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    transition: width 0.5 s;
+}
+
+.img-box:nth-child(2)
+{
+    background: url(uxui.png);
+    background-size: cover;
+    background-position:center;
+}
+
+.img-box:nth-child(3)
+{
+    background: url(iot.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.img-box h3
+{
+    
+    color: rgb(0, 0, 0);
+    position:absolute;
+    bottom:0;
+    left:30px;
+    opacity:0;
+    transition: bottom 0.5s,opacity 0.5 s;
+}
+
+.img-box:hover
+{
+    width:350px;
+    cursor: pointer;
+}
+
+.img-box:hover h3
+{
+    opacity:1;
+    bottom:25px;
+}

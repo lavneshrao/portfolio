@@ -1,0 +1,201 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#main
+{
+    background-color: #20242d;
+    height:100vh;
+}
+
+#nav
+{
+    position:sticky;
+    display:inline-flex;
+    justify-content: center;
+    align-items: middle;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+
+p
+{
+    color: white;
+    padding-left: 10px;
+    font-size: large;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;   
+}
+
+ul
+{
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+    padding-left: 850px; 
+    margin-top:10px;
+    margin-bottom: 10px;
+    
+}
+
+li
+{
+    margin-left:40px;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+li a
+{
+    text-decoration:none;
+    color:wheat;
+}
+
+li a:hover
+{
+    color:aqua;
+    font-size: 22px;
+}
+
+.contact
+{
+    width:100%;
+    display: inline;
+    height:100vh;
+}
+.contact-text
+{
+    width:50%;
+    max-height:fit-content;
+    float:left;
+    
+}
+
+.contact-form
+{
+    width:50%;
+    float:right;
+    align-content:center;
+    margin-top:0px;
+}
+
+.contact-form form
+{
+    
+    position:relative;
+    padding-top:30px;
+}
+
+.contact-form form input,
+form textarea
+{
+    width:80%;
+    padding:14px;
+    background-color: #20242d;
+    border:1px solid white;
+    margin-top: 1rem;
+}
+
+.contact-form .submit
+{
+    width:20%;
+    margin-left: 30%;
+    color:white;
+    background:rgba(59, 224, 216, 0.493);
+}
+
+.contact-form .submit:hover 
+{
+    background:white;
+    color:black;
+}
+
+
+.contact-text h1
+{
+    font-size: 40px;
+    font-weight: 800;
+    color:rgba(59, 224, 216, 0.493);
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.contact-text h3
+{
+    color: white;
+    margin:28px 20px;
+    font-size:28px;
+    font-weight: 600;
+}
+
+.contact-text h4
+{
+    color:white;
+    font-size: 18px;
+    line-height: 2;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    line-height: 1;
+}
+
+.list
+{
+    margin-bottom:5rem;
+    margin-left: 20px;
+}
+ 
+
+.list a
+{
+    display:flexbox;
+    font-size:18px;
+    margin-bottom:12px;
+    text-decoration: none;  
+    line-height: 1.5;
+    color: aliceblue;
+    transition: all ease 0.45s;
+}
+
+.list a:hover
+{
+    font-size:20px;
+    color:aqua;
+}
+
+.icons a
+{
+    
+    display:inline;
+    justify-content: space-between;
+    font-size:25px;
+    margin-bottom:12px;
+    margin-left: 20px;
+    text-decoration: none;  
+    gap:5rem; 
+    padding-left:2.5px;
+}
+
+.icons a i
+{
+    height:35px;
+    width:35px;
+    background: rgba(59, 224, 216, 0.493);
+    color:whitesmoke;
+    border-radius: 25%;
+    align-content: center; 
+    padding-left:0.25rem;
+}
+
+.icons a i:hover 
+{
+    color:rgba(59, 224, 216, 0.493);
+    background-color: antiquewhite;
+}
+
